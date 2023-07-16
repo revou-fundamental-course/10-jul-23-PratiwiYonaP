@@ -1,0 +1,85 @@
+body{
+    margin:0%;
+    padding:0%;
+    background-color: #f8f9f7;
+}
+
+h1{
+    color: #a4d383;
+    font-family: PT sans-serif;
+    margin-left: 10%;
+}
+
+p{
+    font-family: PT sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    color:rgb(100, 99, 99);
+}
+
+.form{
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #cbdfbd;
+    color: rgb(102, 117, 107);
+    /* left:37%; */
+    font-family: PT sans-serif;
+}
+
+input{
+    padding: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+#hitung{
+    padding: 5px;
+    background-color: #93b878;
+    border-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    color: white;
+}
+
+#reset{
+    padding: 5px;
+    border-radius: 4px;
+    border-color: rgb(227, 223, 223);
+    color:rgb(102, 117, 107);
+}
+
+.subjudul{
+    font-family: PT sans-serif;
+    color:#a4d383;
+    margin-left: 39%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#hasil{
+    margin-top: 50px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+#keterangan{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#penjelasan{
+    width: 500px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
