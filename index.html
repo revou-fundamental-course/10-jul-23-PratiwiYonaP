@@ -10,13 +10,15 @@
 <body>
     <h1>Body Mass Index Calculator (Kalkulator IMT)</h1>
     <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk hitung sekarang di kalkulator BMI.</p>
+    <p>Kalkulator akan memberi anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh atau BMI dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M2.</p>
     <div class="container">
     <div class="form">
         <label for="jenis_kelamin">Jenis Kelamin :</label><br><br>
         <input type="radio" id="Laki-laki" name="jenis_kelamin" value="Laki-laki" required>
           <label for="Laki-laki">Laki-laki</label>
           <input type="radio" id="Perempuan" name="jenis_kelamin" value="Perempuan">
-          <label for="Perempuan">Perempuan</label><br><br>
+          <label for="Perempuan">Perempuan</label><br>
+        <span id="jenisKelamin_error"></span><br><br>
         <label for="Usia">Usia (Tahun) :</label> <br>
         <input type="number" id="Usia" name="Usia" required><br>
         <span id="Usia_error"></span><br><br>
@@ -30,11 +32,20 @@
         <button onclick='reload()' id="reset">Reset</button>
     </div>
     <div id="hasil">
-        <h2>Hasil Perhitungan BMI Anda :</h2> 
+        <div id="subjudul">Hasil Perhitungan BMI Anda :</div> 
+        <div id="image"></div>
         <div id="nilai"></div>
         <div id="keterangan"></div>
         <div id="penjelasan"></div>
     </div>
 </div>
+<p id="note">BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan risiko penyakit seseorang. Anda perlu konsultasi lebih lanjut mengenai risiko dan kekhawatiran Anda terkait dengan berat badan Anda.</p>
+<p>Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.</p>
 </body>
+<footer>
+    <div class="container">
+        <p>Download Aplikasi</p>
+        <img src="assets/google-play-store-png-7.png" id="foot">
+    </div>
+</footer>
 </html>

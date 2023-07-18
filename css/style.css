@@ -15,6 +15,7 @@ p{
     margin-left: 10%;
     margin-right: 10%;
     color:rgb(100, 99, 99);
+    text-align: justify;
 }
 
 .form{
@@ -22,7 +23,6 @@ p{
     border-radius: 4px;
     background-color: #cbdfbd;
     color: rgb(102, 117, 107);
-    /* left:37%; */
     font-family: PT sans-serif;
 }
 
@@ -47,10 +47,11 @@ input{
     color:rgb(102, 117, 107);
 }
 
-.subjudul{
+#subjudul{
     font-family: PT sans-serif;
-    color:#a4d383;
-    margin-left: 39%;
+    font-weight: bold;
+    font-size: larger;
+    color: #618245;
 }
 
 .container{
@@ -58,7 +59,6 @@ input{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
 }
 
 #hasil{
@@ -70,16 +70,39 @@ input{
     width: 500px;
 }
 
+#image{
+    margin-top: 5%;
+}
+
+#nilai{
+    font-family: PT sans-serif;
+    color: #465c33;
+}
+
 #keterangan{
     width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: PT sans-serif;
+    font-size: larger;
+    font-weight: bold;
 }
 
 #penjelasan{
-    width: 500px;
+    width: 700px;
     display: flex;
     justify-content: start;
     align-items: center;
+    font-family: PT sans-serif;
+    text-align: justify;
 }
+
+footer{
+    margin-bottom: 3%;
+}
+#foot{
+    max-width: 20%;
+    height: auto;
+}
+
